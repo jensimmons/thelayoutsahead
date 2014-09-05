@@ -1,0 +1,88 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000323}}
+body {
+  font-family: "pt-sans", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.35em;
+  font-size: 16px;
+  color: #444;
+  background: white;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000339}}
+h1 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 48px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000343}}
+h2 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 36px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000347}}
+h3 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 32px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000351}}
+h4 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 24px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000355}}
+h5 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000359}}
+h6 {
+  font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+  font-size: 16px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000363}}
+p {
+  margin: 1em 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000366}}
+a {
+  color: #1078C2;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000376}}
+.alt body {
+  font-family: "minion-pro", Georgia, "Times New Roman", "DejaVu Serif", serif;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/thelayoutsahead\/sass\/typography\.scss}line{font-family:\0000379}}
+.alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
+  font-family: "minion-pro", Georgia, "Times New Roman", "DejaVu Serif", serif;
+  color: #444;
+}

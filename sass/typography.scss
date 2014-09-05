@@ -1,0 +1,84 @@
+//-----------------------------------------------------------------------
+// Color variables
+//-----------------------------------------------------------------------
+
+$text-color: #444; 
+$link-color: #1078C2;
+
+
+//-----------------------------------------------------------------------
+// Font Stacks
+//-----------------------------------------------------------------------
+
+$minion-pro:        "minion-pro", Georgia, "Times New Roman", "DejaVu Serif", serif;
+$magistral-web:     "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+$proxima-nova:      "proxima-nova", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+$pt-sans:           "pt-sans", Verdana, Tahoma, "DejaVu Sans", sans-serif;
+
+
+//-----------------------------------------------------------------------
+// Typography
+//-----------------------------------------------------------------------
+
+body {
+  font-family: $pt-sans;
+  line-height: 1.35em;
+  font-size: 16px;
+  color: $text-color;
+  background: white;
+}
+
+@mixin headline {
+  font-family: $magistral-web;  
+  line-height: 1.15em;
+  font-weight: bold;
+  margin: 0.5em 0;
+  color: #555;
+}
+
+h1 {
+  @include headline;
+  font-size: 48px;
+}
+h2 {
+  @include headline;
+  font-size: 36px;
+}
+h3 {
+  @include headline;
+  font-size: 32px;
+}
+h4 {
+  @include headline;
+  font-size: 24px;
+}
+h5 {
+  @include headline;
+  font-size: 18px;
+}
+h6 {
+  @include headline;
+  font-size: 16px;
+}
+p {
+  margin: 1em 0;
+}
+a {
+  color: $link-color;
+}
+
+
+//-----------------------------------------------------------------------
+// Use Alternative Fonts
+//-----------------------------------------------------------------------
+
+.alt {
+  body {
+    font-family: $minion-pro;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $minion-pro;  
+    color: #444;
+  }
+}
+

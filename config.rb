@@ -15,7 +15,7 @@ firesass = true
 css_dir = "css"
 sass_dir = "sass"
 images_dir = "images"
-javascripts_dir = "javascripts"
+javascripts_dir = "js"
 # Set this to the root of your project when deployed:
 http_path = "/"
 
@@ -39,9 +39,7 @@ http_path = "/"
 # output_style = :expanded or :nested or :compact or :compressed
 output_style = (environment == :development) ? :expanded : :compressed
 
-# To enable relative paths to assets via compass helper functions. Since Drupal
-# themes can be installed in multiple locations, we don't need to worry about
-# the absolute path to the theme from server root.
+# To enable relative paths to assets via compass helper functions. 
 relative_assets = true
 
 # Pass options to sass.
