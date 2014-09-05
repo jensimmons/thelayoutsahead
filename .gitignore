@@ -1,0 +1,45 @@
+# Jekyll #
+############
+_site
+
+# SASS #
+##########
+.sass-cache
+
+# CodeKit #
+##########
+kit
+.kit
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+
+# Logs and databases #
+######################
+*.log
+*.sql
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+
+/config.codekit
