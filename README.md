@@ -1,4 +1,5 @@
-thelayoutsahead
-===============
+The Layouts Ahead
+=================
 
-A repo of experimental web layouts.
+This is a repo of experimental web layouts, created by Jen Simmons.
+labs.thewebahead.net
