@@ -1,0 +1,34 @@
+/* line 2, ../sass/shapes.scss */
+img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 50%;
+}
+
+/* line 8, ../sass/shapes.scss */
+p {
+  margin: 0;
+}
+
+/* line 12, ../sass/shapes.scss */
+.second-example img {
+  shape-outside: circle();
+}
+
+/* line 16, ../sass/shapes.scss */
+.third-example img {
+  shape-outside: elipse();
+}
+
+/* line 20, ../sass/shapes.scss */
+.fourth-example img {
+  border-radius: 100px;
+  shape-outside: inset(0px round 120px) border-box;
+  shape-margin: 30px;
+}
+
+/* line 26, ../sass/shapes.scss */
+.fifth-example img {
+  shape-outside: circle();
+}

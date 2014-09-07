@@ -1,0 +1,10 @@
+/* line 1, ../sass/basic-layout.scss */
+main {
+  width: 80%;
+  margin: 2em auto;
+}
+
+/* line 5, ../sass/basic-layout.scss */
+section {
+  margin: 100px 0;
+}

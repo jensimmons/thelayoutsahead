@@ -1,0 +1,28 @@
+
+img {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 50%; 
+}
+p {
+  margin: 0;
+}
+
+.second-example img {
+  shape-outside: circle();
+}
+
+.third-example img {
+  shape-outside: elipse();
+}
+
+.fourth-example img {
+  border-radius: 100px;
+  shape-outside: inset(0px round 120px) border-box;
+  shape-margin: 30px;
+}
+
+.fifth-example img {
+  shape-outside: circle();
+}

@@ -7,8 +7,8 @@ environment = :development
 #environment = :production
 
 # In development, we can turn on the FireSass-compatible debug_info.
-#firesass = false
-firesass = true
+firesass = false
+#firesass = true
 
 
 # Location of the projects's resources.
@@ -47,6 +47,9 @@ relative_assets = true
 # - For production, we force the CSS to be regenerated even though the source
 #   scss may not have changed, since we want the CSS to be compressed and have
 #   the debug info removed.
-sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
+#normally this next line reads:
+#sass_options = (environment == :development) ? {:debug_info => true} : {:always_update => true}
+#but, in this case, I'm cheating and changing it to 
+sass_options = (environment == :development) ? {:debug_info => false} : {:always_update => true}
 
 
