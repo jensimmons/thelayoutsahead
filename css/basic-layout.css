@@ -1,16 +1,23 @@
 /* line 1, ../sass/basic-layout.scss */
+htm, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, ../sass/basic-layout.scss */
 main {
   width: 80%;
   margin: 2em auto;
 }
 
-/* line 5, ../sass/basic-layout.scss */
+/* line 9, ../sass/basic-layout.scss */
 section {
   margin: 100px 0;
 }
 
-/* line 8, ../sass/basic-layout.scss */
+/* line 12, ../sass/basic-layout.scss */
 footer {
   text-align: center;
   margin: 3em 0 3em 0;
+  clear: both;
 }

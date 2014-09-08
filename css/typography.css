@@ -78,11 +78,12 @@ a {
 }
 
 /* line 76, ../sass/typography.scss */
-.alt body {
+.alt main {
   font-family: "minion-pro", Georgia, "Times New Roman", "DejaVu Serif", serif;
+  color: #000;
 }
-/* line 79, ../sass/typography.scss */
+/* line 80, ../sass/typography.scss */
 .alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
   font-family: "minion-pro", Georgia, "Times New Roman", "DejaVu Serif", serif;
-  color: #444;
+  color: #000;
 }
