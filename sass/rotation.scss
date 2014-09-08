@@ -1,0 +1,35 @@
+.rotation-1 {
+  main {
+    width: 300px;
+    transform: rotate(-10deg);
+  }
+}
+
+.rotation-2 {
+  main {
+    width: 70%;
+  }
+  h1 {
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 375px;
+    left: -30vw;
+    font-size: 70px;
+  }
+  section {
+    margin-left: 100px;    
+  }
+}
+
+.rotation-3 {
+  main {
+    width: 70%;
+    margin-top: 200px;
+  }
+  h1 {
+    transform: rotate(-45deg);
+    float: left;
+    shape-outside: polygon(nonzero, -58px 80.55%, 75.95% -70px, 89.55% -33.65%, -13.4% 121.45%);
+    padding-bottom: 200px;
+  } 
+}
