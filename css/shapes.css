@@ -6,29 +6,35 @@ img {
   width: 50%;
 }
 
-/* line 8, ../sass/shapes.scss */
+/* line 9, ../sass/shapes.scss */
 p {
   margin: 0;
 }
 
-/* line 12, ../sass/shapes.scss */
+/* line 13, ../sass/shapes.scss */
 .second-example img {
+  -webkit-shape-outside: circle();
   shape-outside: circle();
 }
 
-/* line 16, ../sass/shapes.scss */
+/* line 18, ../sass/shapes.scss */
 .third-example img {
-  shape-outside: elipse();
+  -webkit-shape-outside: elipse(50% 50%);
+  shape-outside: ellipse(50% 50%);
 }
 
-/* line 20, ../sass/shapes.scss */
+/* line 23, ../sass/shapes.scss */
 .fourth-example img {
   border-radius: 100px;
-  shape-outside: inset(0px round 120px) border-box;
+  -webkit-shape-outside: border-box;
+  -webkit-shape-margin: 30px;
+  shape-outside: border-box;
   shape-margin: 30px;
 }
 
-/* line 26, ../sass/shapes.scss */
+/* line 32, ../sass/shapes.scss */
 .fifth-example img {
-  shape-outside: circle();
+  width: 60%;
+  -webkit-shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 }

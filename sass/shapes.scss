@@ -5,24 +5,33 @@ img {
   margin-bottom: 30px;
   width: 50%; 
 }
+
 p {
   margin: 0;
 }
 
 .second-example img {
-  shape-outside: circle();
+  -webkit-shape-outside: circle(); // will be supported in iOS8 with a webkit prefix
+  shape-outside: circle(); // is currently supported in Chrome 37+ 
 }
 
 .third-example img {
-  shape-outside: elipse();
+  -webkit-shape-outside: elipse(50% 50%);
+  shape-outside:  ellipse(50% 50%);  
 }
 
 .fourth-example img {
   border-radius: 100px;
-  shape-outside: inset(0px round 120px) border-box;
+  -webkit-shape-outside: border-box;
+  -webkit-shape-margin: 30px;
+  shape-outside: border-box;
   shape-margin: 30px;
+  
 }
 
 .fifth-example img {
-  shape-outside: circle();
+  width: 60%; 
+  -webkit-shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+  shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 }
+
