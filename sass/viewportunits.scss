@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+htm, body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  float: left;
+  margin-right: 2em;
+  width: 50vw;
+  height: 100vh;
+}
+
+div {
+  padding: 2em;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 6vw;
+}
+
+footer {
+  text-align: center;
+}
