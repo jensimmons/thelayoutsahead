@@ -1,33 +1,36 @@
 /* line 2, ../sass/rotation.scss */
 .rotation-1 main {
   width: 300px;
+  -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
 }
 
-/* line 9, ../sass/rotation.scss */
+/* line 10, ../sass/rotation.scss */
 .rotation-2 main {
   width: 70%;
 }
-/* line 12, ../sass/rotation.scss */
+/* line 13, ../sass/rotation.scss */
 .rotation-2 h1 {
+  -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
   position: absolute;
   top: 375px;
   left: -30vw;
   font-size: 70px;
 }
-/* line 19, ../sass/rotation.scss */
+/* line 21, ../sass/rotation.scss */
 .rotation-2 section {
   margin-left: 100px;
 }
 
-/* line 25, ../sass/rotation.scss */
+/* line 27, ../sass/rotation.scss */
 .rotation-3 main {
   width: 70%;
   margin-top: 200px;
 }
-/* line 29, ../sass/rotation.scss */
+/* line 31, ../sass/rotation.scss */
 .rotation-3 h1 {
+  -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   float: left;
   shape-outside: polygon(nonzero, -58px 80.55%, 75.95% -70px, 89.55% -33.65%, -13.4% 121.45%);

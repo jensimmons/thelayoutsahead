@@ -12,18 +12,23 @@ p {
 }
 
 /* line 13, ../sass/shapes.scss */
+section {
+  clear: both;
+}
+
+/* line 17, ../sass/shapes.scss */
 .second-example img {
   -webkit-shape-outside: circle();
   shape-outside: circle();
 }
 
-/* line 18, ../sass/shapes.scss */
+/* line 22, ../sass/shapes.scss */
 .third-example img {
   -webkit-shape-outside: elipse(50% 50%);
   shape-outside: ellipse(50% 50%);
 }
 
-/* line 23, ../sass/shapes.scss */
+/* line 27, ../sass/shapes.scss */
 .fourth-example img {
   border-radius: 100px;
   -webkit-shape-outside: border-box;
@@ -32,7 +37,7 @@ p {
   shape-margin: 30px;
 }
 
-/* line 32, ../sass/shapes.scss */
+/* line 36, ../sass/shapes.scss */
 .fifth-example img {
   width: 60%;
   -webkit-shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
