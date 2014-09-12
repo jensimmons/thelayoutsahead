@@ -10,6 +10,10 @@ p {
   margin: 0;
 }
 
+section {
+  clear: both;
+}
+
 .second-example img {
   -webkit-shape-outside: circle(); // will be supported in iOS8 with a webkit prefix
   shape-outside: circle(); // is currently supported in Chrome 37+ 
