@@ -1,6 +1,7 @@
 .rotation-1 {
   main {
     width: 300px;
+    -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
   }
 }
@@ -10,6 +11,7 @@
     width: 70%;
   }
   h1 {
+    -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     position: absolute;
     top: 375px;
@@ -27,6 +29,7 @@
     margin-top: 200px;
   }
   h1 {
+    -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     float: left;
     shape-outside: polygon(nonzero, -58px 80.55%, 75.95% -70px, 89.55% -33.65%, -13.4% 121.45%);
