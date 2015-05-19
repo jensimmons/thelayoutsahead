@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box; }
+
+htm, body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  border: 10px solid #000;
+  height: 100vh;
+  background: yellow;
+  padding: 3em; }
+  header h1 {
+    margin-top: 0;
+    font-size: 6vw; }
+
+article {
+  padding: 3em; }
+
+footer {
+  text-align: center;
+  margin-bottom: 3em; }
