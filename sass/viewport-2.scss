@@ -12,10 +12,10 @@ header {
   height: 100vh;
   background: yellow;
   padding: 3em 6em;  
-  text-align: center;
   h1 {
     margin-top: 0;
-    font-size: 8vw;
+    font-size: 10vw;
+    text-align: center;
   }
 }
 
@@ -33,7 +33,10 @@ footer {
 header.shorter {
   background: #C589FF;
   height: 90vh;
+  h1 {
+    font-size: 8vw;        
+  }
   h2 {
-    font-size: 4vw;    
+    font-size: 6vw;    
   }
 }

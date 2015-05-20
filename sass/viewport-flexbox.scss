@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+htm, body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  border: 20px solid #000;
+  background: yellow;
+  min-height: 100vh;
+  
+  display: flex;
+  
+  h1 {
+    font-size: 8vw;
+
+    margin: auto;
+  }
+}
+
+article { 
+  padding: 1em 3em;  
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 3em;
+}
