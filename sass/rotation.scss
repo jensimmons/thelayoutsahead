@@ -36,3 +36,32 @@
     padding-bottom: 200px;
   } 
 }
+
+.rotation-4 {
+  main {
+    width: 300px;
+  }
+  @media (min-width: 500px) {
+    main {
+      background: red;
+      -webkit-transform: rotate(-10deg);
+      transform: rotate(-10deg);
+    }    
+  }
+  @media (min-width: 700px) {
+    main {
+      background: green;
+      -webkit-transform: rotate(-20deg);
+      transform: rotate(-20deg);
+    }    
+  }
+  @media (min-width: 900px) {
+    main {
+      width: 400px;
+      background: blue;
+      -webkit-transform: rotate(-30deg);
+      transform: rotate(-30deg);
+    }    
+  }
+}
+
