@@ -23,8 +23,9 @@ nav {
 
 }
 ul {
-  margin-left: 2em;
+  margin-left: 0;
   padding: 0;
+  list-style: none;
 }
 li {
   
@@ -32,7 +33,7 @@ li {
 ul.demo-list {
   display: flex;
   flex-wrap: wrap;
-  margin: -8vw 0 0 0;
+  margin: -7.5vw 0 0 0;
   align-items: center;
   justify-content: space-around;
 }
@@ -49,20 +50,26 @@ li.demo {
   flex-wrap: wrap;
 }
 li.demo:first-child {
-  width: 12vw;
-  height: 12vw;
+  width: 16vw;
+  height: 16vw;
+  h2 {
+    width: 9vw;
+  }
 }
 li.demo:nth-child(2) {
-  width: 24vw;
-  height: 24vw;
+  width: 20vw;
+  height: 20vw;
 }
 li.demo:nth-child(3) {
-  width: 21vw;
-  height: 21vw;
+  width: 22vw;
+  height: 22vw;
+  h2 {
+    width: 11vw;
+  }
 }
 li.demo:nth-child(4) {
-  width: 18vw;
-  height: 18vw;
+  width: 21vw;
+  height: 21vw;
 }
 li.demo:last-child {
   width: 20vw;
