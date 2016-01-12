@@ -1,5 +1,5 @@
 .rotation-1 main {
-  width: 300px;
+  max-width: 300px;
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg); }
 
@@ -43,3 +43,5 @@
     background: blue;
     -webkit-transform: rotate(-30deg);
     transform: rotate(-30deg); } }
+
+/*# sourceMappingURL=rotation.css.map */
