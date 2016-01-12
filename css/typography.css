@@ -1,89 +1,67 @@
-/* line 23, ../sass/typography.scss */
 body {
   font-family: "pt-sans", Verdana, Tahoma, "DejaVu Sans", sans-serif;
   line-height: 1.35em;
   font-size: 16px;
   color: #444;
-  background: white;
-}
+  background: white; }
 
-/* line 39, ../sass/typography.scss */
 h1 {
   font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
   line-height: 1.15em;
   font-weight: bold;
   margin: 0.5em 0;
   color: #555;
-  font-size: 48px;
-}
+  font-size: 48px; }
 
-/* line 43, ../sass/typography.scss */
 h2 {
   font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
   line-height: 1.15em;
   font-weight: bold;
   margin: 0.5em 0;
   color: #555;
-  font-size: 36px;
-}
+  font-size: 36px; }
 
-/* line 47, ../sass/typography.scss */
 h3 {
   font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
   line-height: 1.15em;
   font-weight: bold;
   margin: 0.5em 0;
   color: #555;
-  font-size: 32px;
-}
+  font-size: 32px; }
 
-/* line 51, ../sass/typography.scss */
 h4 {
   font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
   line-height: 1.15em;
   font-weight: bold;
   margin: 0.5em 0;
   color: #555;
-  font-size: 24px;
-}
+  font-size: 24px; }
 
-/* line 55, ../sass/typography.scss */
 h5 {
   font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
   line-height: 1.15em;
   font-weight: bold;
   margin: 0.5em 0;
   color: #555;
-  font-size: 18px;
-}
+  font-size: 18px; }
 
-/* line 59, ../sass/typography.scss */
 h6 {
   font-family: "magistral-web", Verdana, Tahoma, "DejaVu Sans", sans-serif;
   line-height: 1.15em;
   font-weight: bold;
   margin: 0.5em 0;
   color: #555;
-  font-size: 16px;
-}
+  font-size: 16px; }
 
-/* line 63, ../sass/typography.scss */
 p {
-  margin: 1em 0;
-}
+  margin: 1em 0; }
 
-/* line 66, ../sass/typography.scss */
 a {
-  color: #1078C2;
-}
+  color: #1078C2; }
 
-/* line 76, ../sass/typography.scss */
 .alt main {
   font-family: "minion-pro", Georgia, "Times New Roman", "DejaVu Serif", serif;
-  color: #000;
-}
-/* line 80, ../sass/typography.scss */
+  color: #000; }
 .alt h1, .alt h2, .alt h3, .alt h4, .alt h5, .alt h6 {
   font-family: "minion-pro", Georgia, "Times New Roman", "DejaVu Serif", serif;
-  color: #000;
-}
+  color: #000; }

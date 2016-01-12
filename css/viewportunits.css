@@ -1,34 +1,22 @@
-/* line 1, ../sass/viewportunits.scss */
 * {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
-/* line 5, ../sass/viewportunits.scss */
 htm, body {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
-/* line 10, ../sass/viewportunits.scss */
 img {
   float: left;
   margin-right: 2em;
   width: 50vw;
-  height: 100vh;
-}
+  height: 100vh; }
 
-/* line 17, ../sass/viewportunits.scss */
 div {
-  padding: 2em;
-}
+  padding: 2em; }
 
-/* line 21, ../sass/viewportunits.scss */
 h1 {
   margin-top: 0;
-  font-size: 6vw;
-}
+  font-size: 6vw; }
 
-/* line 26, ../sass/viewportunits.scss */
 footer {
-  text-align: center;
-}
+  text-align: center; }

@@ -1,0 +1,137 @@
+<style>
+article{
+  background: rgba(0,255,0, 0.2);
+  width: 50%;
+}
+.region {
+  background: rgba(0,0,255, 0.2);
+}
+hr {
+  margin: 80px;
+}
+
+.regions-on article span {
+  -webkit-flow-into: foobar;
+}
+.regions-on .region {
+  -webkit-flow-from: foobar;
+}
+
+
+.regions-on-2 article span {
+  -webkit-flow-into: foobar2;
+}
+.regions-on-2 .region {
+  -webkit-flow-from: foobar2;
+  height: 200px;
+  margin-top: 10px;
+}
+.regions-on-2 .r1 {
+  background: rgba(100,100,255, 0.2);
+  width: 25%;
+}
+.regions-on-2 .r2 {
+  background: rgba(0,100,255, 0.2);
+  width: 50%;
+  margin-left: 100px;
+}
+.regions-on-2 .r3 {
+  width: 25%;
+  margin-left: 200px;
+  background: rgba(100,100,100, 0.2);
+}
+.regions-on-2 .r4 {
+  background: rgba(255,100,100, 0.2);  
+  height: auto;
+}
+
+
+.regions-multicolumn article span {
+  -webkit-flow-into: foobar3;
+}
+.regions-multicolumn .region {
+  -webkit-flow-from: foobar3;
+  height: 200px;
+  width: 50%;
+  margin-top: 10px;
+  column-count: 2;
+}
+.regions-multicolumn .r1 {
+  background: rgba(0,100,255, 0.2);
+}
+.regions-multicolumn .r2 {
+  background: rgba(100,100,255, 0.2);
+}
+.regions-multicolumn .r3 {
+  background: rgba(100,100,100, 0.2);
+}
+.regions-multicolumn .r4 {
+  background: rgba(255,100,100, 0.2);  
+  height: auto;
+}
+</style>
+
+<html>
+<body>
+  <article>
+    <span><p>It is not enough for the Internet to succeed. It must succeed inevitably.</p>
+<p>Or so many of us Internet Triumphalists in the mid-1990s thought. For, if the march of the Internet's new values were not unstoppable, then it would surely be stopped by our age-old inclinations and power structures. The Net, as we called it then, would become just another venue for the familiar patterns of marginalization, exclusion, oppression, and ignorance.</p>
+<p>Now I'm afraid the argument for inevitability that kept me, and others, hopeful for 20 years no longer holds.</p></span>
+  </article>
+  <div class=region>This is the div.</div>
+
+<hr>
+
+<section class="regions-on">
+  <article>
+    <span>We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols.</span>
+  </article>
+  <div class="region">This is the div.</div>
+</section>
+
+<hr>
+
+<section class="regions-on-2">
+  <article>
+    <span><p>It is not enough for the Internet to succeed. It must succeed inevitably.</p>
+<p>Or so many of us Internet Triumphalists in the mid-1990s thought. For, if the march of the Internet's new values were not unstoppable, then it would surely be stopped by our age-old inclinations and power structures. The Net, as we called it then, would become just another venue for the familiar patterns of marginalization, exclusion, oppression, and ignorance.</p>
+<p>Now I'm afraid the argument for inevitability that kept me, and others, hopeful for 20 years no longer holds.</p>
+<p>We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols.</p>
+<p>It is not enough for the Internet to succeed. It must succeed inevitably.</p>
+<p>Or so many of us Internet Triumphalists in the mid-1990s thought. For, if the march of the Internet's new values were not unstoppable, then it would surely be stopped by our age-old inclinations and power structures. The Net, as we called it then, would become just another venue for the familiar patterns of marginalization, exclusion, oppression, and ignorance.</p>
+<p>Now I'm afraid the argument for inevitability that kept me, and others, hopeful for 20 years no longer holds.</p>
+<p>We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols.</p></span>
+  </article>
+  <div class="region r1">This is the div.</div>
+  <div class="region r2">This a second div.</div>
+  <div class="region r3">This a third div.</div>
+  <div class="region r4">This a fourth div.</div>
+</section>
+
+
+<hr>
+
+<section class="regions-multicolumn">
+  <article>
+    <span><p>It is not enough for the Internet to succeed. It must succeed inevitably.</p>
+<p>Or so many of us Internet Triumphalists in the mid-1990s thought. For, if the march of the Internet's new values were not unstoppable, then it would surely be stopped by our age-old inclinations and power structures. The Net, as we called it then, would become just another venue for the familiar patterns of marginalization, exclusion, oppression, and ignorance.</p>
+<p>Now I'm afraid the argument for inevitability that kept me, and others, hopeful for 20 years no longer holds.</p>
+<p>We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols.</p>
+<p>It is not enough for the Internet to succeed. It must succeed inevitably.</p>
+<p>Or so many of us Internet Triumphalists in the mid-1990s thought. For, if the march of the Internet's new values were not unstoppable, then it would surely be stopped by our age-old inclinations and power structures. The Net, as we called it then, would become just another venue for the familiar patterns of marginalization, exclusion, oppression, and ignorance.</p>
+<p>Now I'm afraid the argument for inevitability that kept me, and others, hopeful for 20 years no longer holds.</p>
+<p>We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols.</p>
+<p>It is not enough for the Internet to succeed. It must succeed inevitably.</p>
+<p>Or so many of us Internet Triumphalists in the mid-1990s thought. For, if the march of the Internet's new values were not unstoppable, then it would surely be stopped by our age-old inclinations and power structures. The Net, as we called it then, would become just another venue for the familiar patterns of marginalization, exclusion, oppression, and ignorance.</p>
+<p>Now I'm afraid the argument for inevitability that kept me, and others, hopeful for 20 years no longer holds.</p>
+<p>We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols. We have a responsibility to try to prevent our governments from passing laws that hand the Internet over to the companies that provide access to it, or that remove by fiat what engineers have granted us through software and protocols.</p></span>
+  </article>
+  <div class="region r1">This is the div.</div>
+  <div class="region r2">This a second div.</div>
+  <div class="region r3">This a third div.</div>
+  <div class="region r4">This a fourth div.</div>
+</section>
+
+
+</body>
+</html>

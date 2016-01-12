@@ -1,45 +1,31 @@
-/* line 2, ../sass/shapes.scss */
 img {
   float: left;
   margin-right: 30px;
   margin-bottom: 30px;
-  width: 50%;
-}
+  width: 50%; }
 
-/* line 9, ../sass/shapes.scss */
 p {
-  margin: 0;
-}
+  margin: 0; }
 
-/* line 13, ../sass/shapes.scss */
 section {
-  clear: both;
-}
+  clear: both; }
 
-/* line 17, ../sass/shapes.scss */
 .second-example img {
   -webkit-shape-outside: circle();
-  shape-outside: circle();
-}
+  shape-outside: circle(); }
 
-/* line 22, ../sass/shapes.scss */
 .third-example img {
   -webkit-shape-outside: elipse(50% 50%);
-  shape-outside: ellipse(50% 50%);
-}
+  shape-outside: ellipse(50% 50%); }
 
-/* line 27, ../sass/shapes.scss */
 .fourth-example img {
   border-radius: 100px;
   -webkit-shape-outside: border-box;
   -webkit-shape-margin: 30px;
   shape-outside: border-box;
-  shape-margin: 30px;
-}
+  shape-margin: 30px; }
 
-/* line 36, ../sass/shapes.scss */
 .fifth-example img {
   width: 60%;
   -webkit-shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-  shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
-}
+  shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0 50%); }

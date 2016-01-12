@@ -1,0 +1,74 @@
+<!--
+  <style>
+  article {
+      -webkit-flow-into: foo;
+  }
+
+  #multi-col {
+      -webkit-column-count: 2;
+      -webkit-flow-from: foo;
+      height: 6em;
+      -webkit-column-gap: 1em;
+  }
+
+  #remainder {
+      -webkit-flow-from: foo;
+      height: auto;
+  }
+</style>
+
+<body>
+  <article>This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. </article>
+  <div id="multicol"></div>
+  <div id="remainder"></div>
+</body>
+-->
+
+<html>
+
+<style>
+  article {
+    -webkit-flow-into: articlefoo;
+  }
+  .region {
+    margin: 10px;
+    -webkit-flow-from: articlefoo;
+  }
+  .multicol {
+    height: 100px;
+    background: rgba(255,255,0,0.2);
+    column-count: 2;
+    column-gap: 1em; 
+  }
+  .remainder {
+    height: auto;
+    background: rgba(0, 0, 255, .2);
+  }
+  
+    .flex {
+      display: flex;
+      flex-pack: justify;
+      height: 6em;
+      background: red;
+  }
+
+  .flex > div {
+      flow-from: article;
+      width: calc(50% - 0.5em);
+      background: #ddd;
+  }
+
+
+</style>
+
+
+<body>
+  <article>This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. This is the article. Will this crash the browser? Let's see. </article>
+  <div class="region flex">
+    <div />
+    <div />
+  </div>  <div class="region nopemulticol"></div>
+  <div class="region remainder"></div>
+</body>
+
+</html>
