@@ -12,9 +12,12 @@ header {
   font-style: italic; }
 
 h1 {
-  font-size: 8vw;
+  font-size: 7vw;
   margin: auto;
-  color: white; }
+  color: white;
+  text-align: center; }
+  h1 span {
+    font-size: 5vw; }
 
 ul {
   margin-left: 0;

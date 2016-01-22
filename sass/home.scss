@@ -15,9 +15,13 @@ header {
   font-style: italic;
 }
 h1 {
-  font-size: 8vw;
+  font-size: 7vw;
   margin: auto;
   color: white;  
+  text-align: center;
+  span {
+    font-size: 5vw;    
+  }
 }
 nav {
 
